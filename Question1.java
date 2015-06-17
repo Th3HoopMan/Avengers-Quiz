@@ -22,6 +22,7 @@ public class Question1 extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        avengers.zeroOut();
 
 
         setContentView(R.layout.question1);

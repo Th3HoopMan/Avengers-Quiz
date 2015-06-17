@@ -92,4 +92,10 @@ public class Avengers implements Serializable{
         superheroScoreSheet[heroPos]+= byHowMany;
         calculateHero();
     }
+
+    public void zeroOut() {
+        for (int item: superheroScoreSheet){
+            superheroScoreSheet[item] = 0;
+        }
+    }
 }
